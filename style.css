@@ -1,0 +1,349 @@
+/* ===============================
+   OmniEntry AI - Professional UI
+=================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#f4f8fc;
+    color:#333;
+}
+
+/* Smooth Scroll */
+html{
+    scroll-behavior:smooth;
+}
+
+/* ===============================
+   Navbar
+=================================*/
+
+.navbar{
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size:17px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* ===============================
+   Hero Section
+=================================*/
+
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#4f9dff,#00b4ff);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.hero .form-control{
+    height:55px;
+    border-radius:12px;
+}
+
+.hero .btn{
+    border-radius:12px;
+}
+
+/* ===============================
+   Cards
+=================================*/
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.4s;
+
+    overflow:hidden;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.25);
+
+}
+
+.card-body{
+
+    padding:25px;
+
+}
+
+.card h1{
+
+    font-size:45px;
+
+}
+
+.card h5{
+
+    font-weight:bold;
+
+    margin-top:10px;
+
+}
+
+.card p{
+
+    color:#666;
+
+}
+
+/* ===============================
+   Buttons
+=================================*/
+
+.btn{
+
+    border-radius:12px;
+
+    padding:10px 22px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.btn-primary:hover{
+
+    transform:scale(1.05);
+
+}
+
+.btn-success:hover{
+
+    transform:scale(1.05);
+
+}
+
+.btn-warning:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ===============================
+   Dashboard
+=================================*/
+
+.container h2{
+
+    font-weight:bold;
+
+    color:#0d6efd;
+
+}
+
+/* ===============================
+   Featured Services
+=================================*/
+
+.card a{
+
+    margin-top:10px;
+
+}
+
+/* ===============================
+   Footer
+=================================*/
+
+footer{
+
+    background:#0b2340;
+
+    color:white;
+
+    padding:40px 0;
+
+    margin-top:60px;
+
+}
+
+footer h3{
+
+    font-weight:bold;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+footer a{
+
+    color:#ffc107;
+
+    text-decoration:none;
+
+}
+
+footer a:hover{
+
+    color:white;
+
+}
+
+/* ===============================
+   Tables
+=================================*/
+
+table{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+/* ===============================
+   Search Box
+=================================*/
+
+input[type=text]{
+
+    border-radius:12px;
+
+}
+
+/* ===============================
+   Animation
+=================================*/
+
+.card{
+
+    animation:fadeIn .8s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===============================
+   Loader
+=================================*/
+
+#loader{
+
+    position:fixed;
+
+    width:100%;
+
+    height:100%;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    z-index:9999;
+
+}
+
+/* ===============================
+   Responsive
+=================================*/
+
+@media(max-width:768px){
+
+.hero{
+
+padding:60px 20px;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+.navbar-brand{
+
+font-size:22px;
+
+}
+
+}
