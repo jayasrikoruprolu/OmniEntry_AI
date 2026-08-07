@@ -1,0 +1,16 @@
+category_name,service_name,keywords
+Education,B.Tech,"engineering intermediate mpc eamcet college"
+Education,BCA,"computer degree programming"
+Education,MBA,"management business degree"
+Education,Scholarship,"financial aid education student"
+Jobs,SSC,"government job ssc degree"
+Jobs,UPSC,"civil services government"
+Jobs,Railway Jobs,"railway recruitment train government"
+Passport,New Passport,"passport travel international"
+Passport,Passport Renewal,"renew passport"
+Health,Ayushman Bharat,"health insurance government"
+Banking,Education Loan,"loan education bank"
+Travel,Visa,"visa foreign travel passport"
+PAN Card,New PAN Card,Apply for a new PAN Card,18+,Aadhaar Card,₹107,https://www.onlineservices.nsdl.com/
+PAN Card,PAN Correction,Correct PAN details,Existing PAN Holder,PAN Card + Aadhaar,₹107,https://www.onlineservices.nsdl.com/
+PAN Card,PAN Reprint,Reprint lost PAN Card,Existing PAN Holder,PAN Copy,₹50,https://www.onlineservices.nsdl.com/
